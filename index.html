@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Login</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="mid">
+        <h2 class="header">SIGN IN</h2>
+        <form class="formSet" action="sign_up.html">
+          <div class="field">
+            <i class="fa-solid fa-envelope"></i>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              required
+            />
+          </div>
+          <div class="field">
+            <i class="fa-solid fa-unlock-keyhole"></i>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Password"
+              required
+            />
+          </div>
+          <input type="submit" value="Sign In" class="btnSignIn" />
+        </form>
+        <div class="newAcnt">
+          Don't Have Any Account?
+          <a href="sign_up.html" class="newLink">Create One</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
